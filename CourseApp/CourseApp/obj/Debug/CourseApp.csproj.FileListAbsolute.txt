@@ -1,0 +1,11 @@
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.exe.config
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.exe
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.pdb
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.AssemblyReference.cache
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Properties.Resources.resources
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.GenerateResource.cache
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.CoreCompileInputs.cache
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.exe
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.pdb
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Form1.resources
