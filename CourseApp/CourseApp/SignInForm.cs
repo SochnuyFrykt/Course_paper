@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-	public partial class Form1 : Form
+	public partial class SignInForm : Form
 	{
-		public Form1()
+		public SignInForm()
 		{
 			InitializeComponent();
 		}
@@ -25,13 +25,6 @@ namespace CourseApp
 		private void HideButton_Click(object sender, EventArgs e)
 		{
 			WindowState = FormWindowState.Minimized;
-		}
-
-		private void SingInButton_Click(object sender, EventArgs e)
-		{
-			SignInForm signInForm = new SignInForm();
-			signInForm.Show();
-			this.Hide();
 		}
 	}
 }
