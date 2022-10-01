@@ -29,7 +29,6 @@
 		private void InitializeComponent()
 		{
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.ButtonBack = new System.Windows.Forms.PictureBox();
 			this.HideButton = new System.Windows.Forms.Label();
 			this.CloseButton = new System.Windows.Forms.Label();
 			this.panel1 = new System.Windows.Forms.Panel();
@@ -39,11 +38,12 @@
 			this.DirectorPanel = new System.Windows.Forms.Panel();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
+			this.ButtonBack = new System.Windows.Forms.PictureBox();
 			this.panel2.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
 			this.panel1.SuspendLayout();
 			this.WorkerPanel.SuspendLayout();
 			this.DirectorPanel.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel2
@@ -57,17 +57,6 @@
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(725, 31);
 			this.panel2.TabIndex = 3;
-			// 
-			// ButtonBack
-			// 
-			this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.ButtonBack.Image = global::CourseApp.Properties.Resources.___1_;
-			this.ButtonBack.Location = new System.Drawing.Point(5, 0);
-			this.ButtonBack.Name = "ButtonBack";
-			this.ButtonBack.Size = new System.Drawing.Size(31, 31);
-			this.ButtonBack.TabIndex = 2;
-			this.ButtonBack.TabStop = false;
-			this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
 			// 
 			// HideButton
 			// 
@@ -173,6 +162,18 @@
 			this.label1.Text = "Зарегистрироваться как:";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
+			// ButtonBack
+			// 
+			this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
+			this.ButtonBack.Location = new System.Drawing.Point(5, 3);
+			this.ButtonBack.Name = "ButtonBack";
+			this.ButtonBack.Size = new System.Drawing.Size(30, 25);
+			this.ButtonBack.TabIndex = 4;
+			this.ButtonBack.TabStop = false;
+			this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
+			// 
 			// SingUpForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,13 +191,13 @@
 			this.Text = "SingUpForm";
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
 			this.WorkerPanel.ResumeLayout(false);
 			this.WorkerPanel.PerformLayout();
 			this.DirectorPanel.ResumeLayout(false);
 			this.DirectorPanel.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

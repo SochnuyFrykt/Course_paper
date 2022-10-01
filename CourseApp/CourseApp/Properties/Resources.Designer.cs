@@ -63,19 +63,9 @@ namespace CourseApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _ {
+        internal static System.Drawing.Bitmap png {
             get {
-                object obj = ResourceManager.GetObject("-", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ___1_ {
-            get {
-                object obj = ResourceManager.GetObject("- (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

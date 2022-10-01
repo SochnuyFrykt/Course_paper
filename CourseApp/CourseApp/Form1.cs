@@ -31,14 +31,14 @@ namespace CourseApp
 		{
 			SignInForm signInForm = new SignInForm();
 			signInForm.Show();
-			this.Hide();
+			Hide();
 		}
 
 		private void SingUpBottom_Click(object sender, EventArgs e)
 		{
 			SingUpForm singUpForm = new SingUpForm();
 			singUpForm.Show();
-			this.Hide();
+			Hide();
 		}
 	}
 }

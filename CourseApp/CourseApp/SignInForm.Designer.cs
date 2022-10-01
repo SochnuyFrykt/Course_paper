@@ -164,11 +164,12 @@
 			// 
 			// ButtonBack
 			// 
+			this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
 			this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.ButtonBack.Image = global::CourseApp.Properties.Resources.___1_;
-			this.ButtonBack.Location = new System.Drawing.Point(5, 0);
+			this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
+			this.ButtonBack.Location = new System.Drawing.Point(5, 3);
 			this.ButtonBack.Name = "ButtonBack";
-			this.ButtonBack.Size = new System.Drawing.Size(31, 31);
+			this.ButtonBack.Size = new System.Drawing.Size(30, 25);
 			this.ButtonBack.TabIndex = 3;
 			this.ButtonBack.TabStop = false;
 			this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
