@@ -31,19 +31,23 @@
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.HelpLink = new System.Windows.Forms.Label();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.ButtonBack = new System.Windows.Forms.PictureBox();
 			this.HideButton = new System.Windows.Forms.Label();
 			this.CloseButton = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.WorkerPanel = new System.Windows.Forms.Panel();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.Worker = new System.Windows.Forms.Label();
 			this.DirectorPanel = new System.Windows.Forms.Panel();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.label2 = new System.Windows.Forms.Label();
-			this.ButtonBack = new System.Windows.Forms.PictureBox();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
-			this.WorkerPanel.SuspendLayout();
-			this.DirectorPanel.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
+			this.WorkerPanel.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			this.DirectorPanel.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// panel1
@@ -79,6 +83,18 @@
 			this.panel2.Name = "panel2";
 			this.panel2.Size = new System.Drawing.Size(725, 31);
 			this.panel2.TabIndex = 2;
+			// 
+			// ButtonBack
+			// 
+			this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+			this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
+			this.ButtonBack.Location = new System.Drawing.Point(5, 3);
+			this.ButtonBack.Name = "ButtonBack";
+			this.ButtonBack.Size = new System.Drawing.Size(30, 25);
+			this.ButtonBack.TabIndex = 3;
+			this.ButtonBack.TabStop = false;
+			this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
 			// 
 			// HideButton
 			// 
@@ -122,19 +138,30 @@
 			// 
 			// WorkerPanel
 			// 
+			this.WorkerPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(29)))), ((int)(((byte)(58)))));
+			this.WorkerPanel.Controls.Add(this.pictureBox1);
 			this.WorkerPanel.Controls.Add(this.Worker);
 			this.WorkerPanel.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.WorkerPanel.Location = new System.Drawing.Point(119, 111);
 			this.WorkerPanel.Name = "WorkerPanel";
-			this.WorkerPanel.Size = new System.Drawing.Size(185, 225);
+			this.WorkerPanel.Size = new System.Drawing.Size(185, 199);
 			this.WorkerPanel.TabIndex = 4;
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = global::CourseApp.Properties.Resources.Производитель_работ;
+			this.pictureBox1.Location = new System.Drawing.Point(28, 20);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(128, 128);
+			this.pictureBox1.TabIndex = 1;
+			this.pictureBox1.TabStop = false;
 			// 
 			// Worker
 			// 
 			this.Worker.AutoSize = true;
 			this.Worker.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
 			this.Worker.ForeColor = System.Drawing.Color.White;
-			this.Worker.Location = new System.Drawing.Point(10, 205);
+			this.Worker.Location = new System.Drawing.Point(10, 170);
 			this.Worker.Name = "Worker";
 			this.Worker.Size = new System.Drawing.Size(165, 16);
 			this.Worker.TabIndex = 0;
@@ -143,36 +170,34 @@
 			// 
 			// DirectorPanel
 			// 
+			this.DirectorPanel.Controls.Add(this.pictureBox2);
 			this.DirectorPanel.Controls.Add(this.label2);
 			this.DirectorPanel.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.DirectorPanel.Location = new System.Drawing.Point(410, 111);
 			this.DirectorPanel.Name = "DirectorPanel";
-			this.DirectorPanel.Size = new System.Drawing.Size(185, 225);
+			this.DirectorPanel.Size = new System.Drawing.Size(185, 199);
 			this.DirectorPanel.TabIndex = 5;
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Image = global::CourseApp.Properties.Resources.гендиректор;
+			this.pictureBox2.Location = new System.Drawing.Point(28, 20);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(128, 128);
+			this.pictureBox2.TabIndex = 1;
+			this.pictureBox2.TabStop = false;
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(5, 205);
+			this.label2.Location = new System.Drawing.Point(5, 170);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(175, 16);
 			this.label2.TabIndex = 0;
 			this.label2.Text = "Генеральный директор";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			// 
-			// ButtonBack
-			// 
-			this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-			this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
-			this.ButtonBack.Location = new System.Drawing.Point(5, 3);
-			this.ButtonBack.Name = "ButtonBack";
-			this.ButtonBack.Size = new System.Drawing.Size(30, 25);
-			this.ButtonBack.TabIndex = 3;
-			this.ButtonBack.TabStop = false;
-			this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
 			// 
 			// SignInForm
 			// 
@@ -193,11 +218,13 @@
 			this.panel1.PerformLayout();
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
 			this.WorkerPanel.ResumeLayout(false);
 			this.WorkerPanel.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.DirectorPanel.ResumeLayout(false);
 			this.DirectorPanel.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -216,5 +243,7 @@
 		private System.Windows.Forms.Panel DirectorPanel;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.PictureBox ButtonBack;
+		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.PictureBox pictureBox2;
 	}
 }
