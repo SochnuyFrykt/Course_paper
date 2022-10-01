@@ -33,5 +33,12 @@ namespace CourseApp
 			signInForm.Show();
 			this.Hide();
 		}
+
+		private void SingUpBottom_Click(object sender, EventArgs e)
+		{
+			SingUpForm singUpForm = new SingUpForm();
+			singUpForm.Show();
+			this.Hide();
+		}
 	}
 }

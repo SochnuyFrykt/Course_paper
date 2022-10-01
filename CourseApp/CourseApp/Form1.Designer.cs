@@ -141,6 +141,7 @@
 			this.SingUpBottom.TabIndex = 3;
 			this.SingUpBottom.Text = "Регистрация";
 			this.SingUpBottom.UseVisualStyleBackColor = false;
+			this.SingUpBottom.Click += new System.EventHandler(this.SingUpBottom_Click);
 			// 
 			// Form1
 			// 

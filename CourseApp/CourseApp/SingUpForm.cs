@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-	public partial class SignInForm : Form
+	public partial class SingUpForm : Form
 	{
-		public SignInForm()
+		public SingUpForm()
 		{
 			InitializeComponent();
 		}

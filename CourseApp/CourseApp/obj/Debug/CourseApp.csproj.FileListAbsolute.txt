@@ -10,3 +10,4 @@ C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.pdb
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Form1.resources
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SignInForm.resources
+C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SingUpForm.resources
