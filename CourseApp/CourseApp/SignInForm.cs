@@ -22,9 +22,29 @@ namespace CourseApp
 			Application.Exit();
 		}
 
+		private void CloseButton_MouseEnter(object sender, EventArgs e)
+		{
+			CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
+		}
+
+		private void CloseButton_MouseLeave(object sender, EventArgs e)
+		{
+			CloseButton.ForeColor = Color.White;
+		}
+
 		private void HideButton_Click(object sender, EventArgs e)
 		{
 			WindowState = FormWindowState.Minimized;
+		}
+
+		private void HideButton_MouseEnter(object sender, EventArgs e)
+		{
+			HideButton.ForeColor = Color.FromArgb(149, 149, 149);
+		}
+
+		private void HideButton_MouseLeave(object sender, EventArgs e)
+		{
+			HideButton.ForeColor = Color.White;
 		}
 
 		private void ButtonBack_Click(object sender, EventArgs e)
