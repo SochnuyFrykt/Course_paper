@@ -75,5 +75,11 @@ namespace CourseApp
 		{
 			lastPoint = new Point(e.X, e.Y);
 		}
+
+		private void ButtonHelp_Click(object sender, EventArgs e)
+		{
+			Help help = new Help();
+			help.Show();
+		}
 	}
 }

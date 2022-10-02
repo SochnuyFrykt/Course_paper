@@ -53,5 +53,11 @@ namespace CourseApp
 			form1.Show();
 			Hide();
 		}
+
+		private void ButtonHelp_Click(object sender, EventArgs e)
+		{
+			Help help = new Help();
+			help.Show();
+		}
 	}
 }
