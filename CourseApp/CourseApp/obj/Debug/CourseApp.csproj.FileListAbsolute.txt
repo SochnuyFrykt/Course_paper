@@ -11,3 +11,16 @@ C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Form1.resources
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SignInForm.resources
 C:\Users\sereb\OneDrive\Рабочий стол\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SingUpForm.resources
+D:\Course\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.exe.config
+D:\Course\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.exe
+D:\Course\Course_paper\CourseApp\CourseApp\bin\Debug\CourseApp.pdb
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.AssemblyReference.cache
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.SuggestedBindingRedirects.cache
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Form1.resources
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.Properties.Resources.resources
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SignInForm.resources
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.SingUpForm.resources
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.GenerateResource.cache
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.csproj.CoreCompileInputs.cache
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.exe
+D:\Course\Course_paper\CourseApp\CourseApp\obj\Debug\CourseApp.pdb

@@ -1,4 +1,6 @@
-﻿namespace CourseApp
+﻿using System.Runtime.InteropServices;
+
+namespace CourseApp
 {
 	partial class Form1
 	{
