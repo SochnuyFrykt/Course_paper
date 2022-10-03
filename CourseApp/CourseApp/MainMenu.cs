@@ -12,6 +12,11 @@ namespace CourseApp
 {
     public partial class MainMenu : Template
     {
+        InformationAboutObjects info;
+        Monitoring monitoring;
+        SalaryCalculation salary;
+        Orders orders;
+        Docs docs;
         public MainMenu()
         {
             InitializeComponent();
@@ -22,15 +27,6 @@ namespace CourseApp
             docs = new Docs(this);
         }
 
-        private void MainMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-        InformationAboutObjects info;
-        Monitoring monitoring;
-        SalaryCalculation salary;
-        Orders orders;
-        Docs docs;
         private void SingInButton_Click(object sender, EventArgs e)
         {
             info.Show();

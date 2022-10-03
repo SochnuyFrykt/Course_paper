@@ -136,7 +136,6 @@
             this.Controls.Add(this.SingInButton);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
-            this.Load += new System.EventHandler(this.MainMenu_Load);
             this.Controls.SetChildIndex(this.SingInButton, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
