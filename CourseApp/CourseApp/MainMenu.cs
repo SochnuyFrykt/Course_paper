@@ -15,45 +15,48 @@ namespace CourseApp
         public MainMenu()
         {
             InitializeComponent();
+            info = new InformationAboutObjects(this);
+            monitoring = new Monitoring(this);
+            salary = new SalaryCalculation(this);
+            orders = new Orders(this);
+            docs = new Docs(this);
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
 
         }
-
+        InformationAboutObjects info;
+        Monitoring monitoring;
+        SalaryCalculation salary;
+        Orders orders;
+        Docs docs;
         private void SingInButton_Click(object sender, EventArgs e)
         {
-            var info = new InformationAboutObjects(this);
             info.Show();
             Hide();
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var monitoring = new Monitoring(this);
             monitoring.Show();
             Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var salary = new SalaryCalculation(this);
             salary.Show();
             Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var orders = new Orders(this);
             orders.Show();
             Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            var docs = new Docs(this);
             docs.Show();
             Hide();
 

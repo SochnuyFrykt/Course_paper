@@ -21,7 +21,7 @@ namespace CourseApp
         public override void ButtonBack_Click(object sender, EventArgs e)
         {
             formtoopen.Show();
-            Close();
+            Hide();
         }
     }
 }
