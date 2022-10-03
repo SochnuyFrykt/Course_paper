@@ -12,9 +12,16 @@ namespace CourseApp
 {
     public partial class Orders : Template
     {
-        public Orders()
+        Form formtoopen;
+        public Orders(MainMenu form)
         {
             InitializeComponent();
+            formtoopen = form;
+        }
+        public override void ButtonBack_Click(object sender, EventArgs e)
+        {
+            formtoopen.Show();
+            Close();
         }
     }
 }

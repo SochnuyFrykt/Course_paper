@@ -12,9 +12,16 @@ namespace CourseApp
 {
     public partial class Monitoring : Template
     {
-        public Monitoring()
+        Form formtoopen;
+        public Monitoring(MainMenu form)
         {
             InitializeComponent();
+            formtoopen = form;
+        }
+        public override void ButtonBack_Click(object sender, EventArgs e)
+        {
+            formtoopen.Show();
+            Close();
         }
     }
 }

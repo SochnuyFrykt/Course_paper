@@ -12,9 +12,16 @@ namespace CourseApp
 {
     public partial class InformationAboutObjects : Template
     {
-        public InformationAboutObjects()
+        Form formtoopen;
+        public InformationAboutObjects(MainMenu form)
         {
             InitializeComponent();
+            formtoopen = form;
+        }
+        public override void ButtonBack_Click(object sender, EventArgs e)
+        {
+            formtoopen.Show();
+            Close();
         }
     }
 }
