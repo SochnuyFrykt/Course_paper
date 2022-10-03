@@ -47,12 +47,7 @@ namespace CourseApp
 			HideButton.ForeColor = Color.White;
 		}
 
-		private void ButtonBack_Click(object sender, EventArgs e)
-		{
-			Form1 form1 = new Form1();
-			form1.Show();
-			Hide();
-		}
+
 
 		Point lastPoint;
 		private void panel2_MouseMove(object sender, MouseEventArgs e)
@@ -77,7 +72,13 @@ namespace CourseApp
 		{
 			var reg = new Registration();
 			reg.Show();
-			Hide();
+			Close();
+		}
+		private void ButtonBack_Click(object sender, EventArgs e)
+		{
+			Form1 form1 = new Form1();
+			form1.Show();
+			Close();
 		}
 	}
 }

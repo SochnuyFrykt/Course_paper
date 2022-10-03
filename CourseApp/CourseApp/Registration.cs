@@ -26,7 +26,7 @@ namespace CourseApp
         {
             var reg = new SingUpForm();
             reg.Show();
-            Hide();
+            Close();
         }
     }
 }

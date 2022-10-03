@@ -20,7 +20,7 @@ namespace CourseApp
         {
             var auth = new SignInForm();
             auth.Show();
-            Hide();
+            Close();
         }
     }
 }

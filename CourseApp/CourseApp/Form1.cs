@@ -46,17 +46,19 @@ namespace CourseApp
 		{
 			HideButton.ForeColor = Color.White;
 		}
+		public SignInForm signInForm;
+		public SingUpForm singUpForm;
 
 		private void SingInButton_Click(object sender, EventArgs e)
 		{
-			SignInForm signInForm = new SignInForm();
-			signInForm.Show();
+			signInForm = new SignInForm();
+            signInForm.Show();
 			Hide();
 		}
 
 		private void SingUpBottom_Click(object sender, EventArgs e)
 		{
-			SingUpForm singUpForm = new SingUpForm();
+			singUpForm = new SingUpForm();
 			singUpForm.Show();
 			Hide();
 		}
@@ -80,6 +82,7 @@ namespace CourseApp
 		{
 			Help help = new Help();
 			help.Show();
+			
 		}
 	}
 }
