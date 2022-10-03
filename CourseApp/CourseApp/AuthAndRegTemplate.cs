@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-	public partial class SignInForm : Form
-	{
-		public SignInForm()
-		{
-			InitializeComponent();
-		}
-
+    public partial class AuthAndRegTemplate : Form
+    {
+        public AuthAndRegTemplate()
+        {
+            InitializeComponent();
+        }
 		private void CloseButton_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
@@ -47,26 +46,6 @@ namespace CourseApp
 			HideButton.ForeColor = Color.White;
 		}
 
-		private void ButtonBack_Click(object sender, EventArgs e)
-		{
-			Form1 form1 = new Form1();
-			form1.Show();
-			Hide();
-		}
-		private void ButtonHelp_Click(object sender, EventArgs e)
-		{
-			Help help = new Help();
-			help.Show();
-		}
-
-		private void ButtonAuth_Click(object sender, EventArgs e)
-		{
-			var auth = new Auth();
-			auth.Show();
-			Hide();
-		}
-
-
 		Point lastPoint;
 		private void panel2_MouseMove(object sender, MouseEventArgs e)
 		{
@@ -81,16 +60,12 @@ namespace CourseApp
 		{
 			lastPoint = new Point(e.X, e.Y);
 		}
-
-		//Потом нужно удалить
-		private void ButtonMainMenu_Click(object sender, EventArgs e)
+		public virtual void ButtonBack_Click(object sender, EventArgs e)
 		{
-			var main = new MainMenu();
-			main.Show();
+			var form1 = new SignInForm();
+			form1.Show();
 			Hide();
 		}
 
-
-
-    }
+	}
 }

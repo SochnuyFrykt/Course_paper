@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Auth : AuthAndRegTemplate
+    public partial class Registration : AuthAndRegTemplate
     {
-        public Auth()
+        public Registration()
         {
             InitializeComponent();
         }
+
+        private void Registration_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public override void ButtonBack_Click(object sender, EventArgs e)
         {
-            var auth = new SignInForm();
-            auth.Show();
+            var reg = new SingUpForm();
+            reg.Show();
             Hide();
         }
     }

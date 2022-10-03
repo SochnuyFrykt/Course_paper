@@ -52,6 +52,12 @@
     <Compile Include="Auth.Designer.cs">
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
+    <Compile Include="AuthAndRegTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthAndRegTemplate.Designer.cs">
+      <DependentUpon>AuthAndRegTemplate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Docs.cs">
       <SubType>Form</SubType>
@@ -77,6 +83,12 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainMenuWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenuWorker.Designer.cs">
+      <DependentUpon>MainMenuWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Monitoring.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +100,12 @@
     </Compile>
     <Compile Include="Orders.Designer.cs">
       <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
     <Compile Include="SalaryCalculation.cs">
       <SubType>Form</SubType>
@@ -124,6 +142,9 @@
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AuthAndRegTemplate.resx">
+      <DependentUpon>AuthAndRegTemplate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Docs.resx">
       <DependentUpon>Docs.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,11 +157,17 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuWorker.resx">
+      <DependentUpon>MainMenuWorker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Monitoring.resx">
       <DependentUpon>Monitoring.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Orders.resx">
       <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SalaryCalculation.resx">
       <DependentUpon>SalaryCalculation.cs</DependentUpon>

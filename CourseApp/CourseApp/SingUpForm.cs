@@ -73,5 +73,11 @@ namespace CourseApp
         {
 
         }
-    }
+		private void Registration(object sender, EventArgs e)
+		{
+			var reg = new Registration();
+			reg.Show();
+			Hide();
+		}
+	}
 }

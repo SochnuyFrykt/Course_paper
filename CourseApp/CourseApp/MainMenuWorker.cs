@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Auth : AuthAndRegTemplate
+    public partial class MainMenuWorker : Template
     {
-        public Auth()
+        public MainMenuWorker()
         {
             InitializeComponent();
         }
-        public override void ButtonBack_Click(object sender, EventArgs e)
+
+        private void MainMenuWorker_Load(object sender, EventArgs e)
         {
-            var auth = new SignInForm();
-            auth.Show();
-            Hide();
+
         }
     }
 }

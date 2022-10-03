@@ -152,6 +152,7 @@
             this.WorkerPanel.Name = "WorkerPanel";
             this.WorkerPanel.Size = new System.Drawing.Size(185, 199);
             this.WorkerPanel.TabIndex = 8;
+            this.WorkerPanel.Click += new System.EventHandler(this.Registration);
             // 
             // pictureBox1
             // 
@@ -161,6 +162,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(128, 128);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.Registration);
             // 
             // Worker
             // 
@@ -173,6 +175,7 @@
             this.Worker.TabIndex = 0;
             this.Worker.Text = "Производитель работ";
             this.Worker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Worker.Click += new System.EventHandler(this.Registration);
             // 
             // DirectorPanel
             // 
@@ -183,6 +186,7 @@
             this.DirectorPanel.Name = "DirectorPanel";
             this.DirectorPanel.Size = new System.Drawing.Size(185, 199);
             this.DirectorPanel.TabIndex = 6;
+            this.DirectorPanel.Click += new System.EventHandler(this.Registration);
             // 
             // pictureBox2
             // 
@@ -192,6 +196,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(128, 128);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.Registration);
             // 
             // label2
             // 
@@ -204,6 +209,7 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Генеральный директор";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.Registration);
             // 
             // SingUpForm
             // 
