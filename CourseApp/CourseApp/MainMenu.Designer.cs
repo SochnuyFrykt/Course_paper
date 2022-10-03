@@ -43,7 +43,7 @@
             this.SingInButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SingInButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.SingInButton.ForeColor = System.Drawing.Color.White;
-            this.SingInButton.Location = new System.Drawing.Point(127, 105);
+            this.SingInButton.Location = new System.Drawing.Point(130, 105);
             this.SingInButton.Name = "SingInButton";
             this.SingInButton.Size = new System.Drawing.Size(130, 60);
             this.SingInButton.TabIndex = 11;
@@ -58,7 +58,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(289, 105);
+            this.button1.Location = new System.Drawing.Point(290, 105);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 60);
             this.button1.TabIndex = 12;
@@ -73,7 +73,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(448, 105);
+            this.button2.Location = new System.Drawing.Point(450, 105);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 60);
             this.button2.TabIndex = 13;
@@ -88,7 +88,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(127, 190);
+            this.button3.Location = new System.Drawing.Point(130, 190);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 60);
             this.button3.TabIndex = 14;
@@ -103,7 +103,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(289, 190);
+            this.button4.Location = new System.Drawing.Point(290, 190);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 60);
             this.button4.TabIndex = 15;

@@ -23,5 +23,16 @@ namespace CourseApp
             formtoopen.Show();
             Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            base.OnShown(e);
+            ActiveControl = null;
+        }
     }
 }
