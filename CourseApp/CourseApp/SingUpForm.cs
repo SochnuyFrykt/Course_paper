@@ -51,6 +51,7 @@ namespace CourseApp
 		{
 			Form1 form1 = new Form1();
 			form1.Show();
+			Hide();
 		}
 
 		Point lastPoint;

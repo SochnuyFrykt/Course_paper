@@ -37,12 +37,15 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.SingInButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.ButtonBack = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(37)))), ((int)(((byte)(80)))));
+            this.panel2.Controls.Add(this.ButtonBack);
             this.panel2.Controls.Add(this.HideButton);
             this.panel2.Controls.Add(this.CloseButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -150,6 +153,18 @@
             this.label3.Text = "Авторизация";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ButtonBack
+            // 
+            this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
+            this.ButtonBack.Location = new System.Drawing.Point(5, 3);
+            this.ButtonBack.Name = "ButtonBack";
+            this.ButtonBack.Size = new System.Drawing.Size(30, 25);
+            this.ButtonBack.TabIndex = 9;
+            this.ButtonBack.TabStop = false;
+            this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
+            // 
             // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,6 +184,7 @@
             this.Text = "Auth";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,5 +201,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button SingInButton;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox ButtonBack;
     }
 }

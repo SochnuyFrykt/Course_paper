@@ -81,5 +81,14 @@ namespace CourseApp
 		{
 			lastPoint = new Point(e.X, e.Y);
 		}
-	}
+
+		//Потом нужно удалить
+		private void ButtonMainMenu_Click(object sender, EventArgs e)
+		{
+			var main = new MainMenu();
+			main.Show();
+			Hide();
+		}
+
+    }
 }

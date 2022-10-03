@@ -39,8 +39,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.HelpLink = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ButtonBack = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
             this.SuspendLayout();
             // 
             // HideButton
@@ -78,6 +80,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(37)))), ((int)(((byte)(80)))));
+            this.panel2.Controls.Add(this.ButtonBack);
             this.panel2.Controls.Add(this.HideButton);
             this.panel2.Controls.Add(this.CloseButton);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -194,6 +197,18 @@
             this.panel1.Size = new System.Drawing.Size(725, 31);
             this.panel1.TabIndex = 10;
             // 
+            // ButtonBack
+            // 
+            this.ButtonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ButtonBack.Image = global::CourseApp.Properties.Resources.png;
+            this.ButtonBack.Location = new System.Drawing.Point(5, 3);
+            this.ButtonBack.Name = "ButtonBack";
+            this.ButtonBack.Size = new System.Drawing.Size(30, 25);
+            this.ButtonBack.TabIndex = 11;
+            this.ButtonBack.TabStop = false;
+            this.ButtonBack.Click += new System.EventHandler(this.ButtonBack_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +231,7 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +250,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label HelpLink;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox ButtonBack;
     }
 }

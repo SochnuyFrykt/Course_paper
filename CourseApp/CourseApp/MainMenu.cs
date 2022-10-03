@@ -65,6 +65,13 @@ namespace CourseApp
 			help.Show();
 		}
 
+		private void ButtonBack_Click(object sender, EventArgs e)
+		{
+			var form1 = new SignInForm();
+			form1.Show();
+			Hide();
+		}
+
 		private void SingInButton_Click(object sender, EventArgs e)
         {
 
