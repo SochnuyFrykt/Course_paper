@@ -114,7 +114,7 @@
             this.SingInButton.Name = "SingInButton";
             this.SingInButton.Size = new System.Drawing.Size(130, 60);
             this.SingInButton.TabIndex = 5;
-            this.SingInButton.Text = "Информация об объектах и сроки их сдачи";
+            this.SingInButton.Text = "Информация об объектах\r\n";
             this.SingInButton.UseVisualStyleBackColor = false;
             this.SingInButton.Click += new System.EventHandler(this.SingInButton_Click);
             // 
@@ -145,6 +145,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Расчет заработной платы";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 

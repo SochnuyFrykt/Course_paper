@@ -74,7 +74,16 @@ namespace CourseApp
 
 		private void SingInButton_Click(object sender, EventArgs e)
         {
+			var info = new Information();
+			info.Show();
+			Hide();
+		}
 
-        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+			var money = new Money();
+			money.Show();
+			Hide();
+		}
     }
 }
