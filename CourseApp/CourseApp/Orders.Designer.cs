@@ -38,7 +38,7 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Location = new System.Drawing.Point(0, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(725, 24);
             this.label1.TabIndex = 17;
@@ -53,7 +53,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(701, 320);
             this.textBox1.TabIndex = 18;
-            this.textBox1.Text = "Укажите перечень вашего заказа...";
+            this.textBox1.Text = "Укажите перечень вашего заказа...\r\n";
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             // 
             // SingInButton

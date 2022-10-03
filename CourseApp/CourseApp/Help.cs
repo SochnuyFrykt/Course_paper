@@ -62,5 +62,10 @@ namespace CourseApp
         }
 
 
+        private void textBox1_Enter_1(object sender, EventArgs e)
+        {
+            base.OnShown(e);
+            ActiveControl = null;
+        }
     }
 }
