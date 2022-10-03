@@ -53,7 +53,6 @@ namespace CourseApp
 			form1.Show();
 			Hide();
 		}
-
 		private void ButtonHelp_Click(object sender, EventArgs e)
 		{
 			Help help = new Help();
@@ -68,5 +67,19 @@ namespace CourseApp
 		}
 
 
+		Point lastPoint;
+		private void panel2_MouseMove(object sender, MouseEventArgs e)
+		{
+			if (e.Button == MouseButtons.Left)
+			{
+				Left += e.X - lastPoint.X;
+				Top += e.Y - lastPoint.Y;
+			}
+		}
+
+		private void panel2_MouseDown(object sender, MouseEventArgs e)
+		{
+			lastPoint = new Point(e.X, e.Y);
+		}
 	}
 }

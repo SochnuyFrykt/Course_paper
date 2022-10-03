@@ -52,5 +52,20 @@ namespace CourseApp
 			Form1 form1 = new Form1();
 			form1.Show();
 		}
+
+		Point lastPoint;
+		private void panel2_MouseMove(object sender, MouseEventArgs e)
+		{
+			if (e.Button == MouseButtons.Left)
+			{
+				Left += e.X - lastPoint.X;
+				Top += e.Y - lastPoint.Y;
+			}
+		}
+
+		private void panel2_MouseDown(object sender, MouseEventArgs e)
+		{
+			lastPoint = new Point(e.X, e.Y);
+		}
 	}
 }
