@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-	public partial class SingUpForm : Form
-	{
-		public SingUpForm()
-		{
-			InitializeComponent();
-		}
-
+    public partial class Template : Form
+    {
+        public Template()
+        {
+            InitializeComponent();
+        }
 		private void CloseButton_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
 		}
-
 		private void CloseButton_MouseEnter(object sender, EventArgs e)
 		{
 			CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
@@ -47,13 +45,6 @@ namespace CourseApp
 			HideButton.ForeColor = Color.White;
 		}
 
-		private void ButtonBack_Click(object sender, EventArgs e)
-		{
-			Form1 form1 = new Form1();
-			form1.Show();
-			Hide();
-		}
-
 		Point lastPoint;
 		private void panel2_MouseMove(object sender, MouseEventArgs e)
 		{
@@ -68,10 +59,18 @@ namespace CourseApp
 		{
 			lastPoint = new Point(e.X, e.Y);
 		}
+		private void ButtonHelp_Click(object sender, EventArgs e)
+		{
+			Help help = new Help();
+			help.Show();
+		}
 
-        private void SingUpForm_Load(object sender, EventArgs e)
-        {
+		private void ButtonBack_Click(object sender, EventArgs e)
+		{
+			var form1 = new SignInForm();
+			form1.Show();
+			Hide();
+		}
 
-        }
     }
 }

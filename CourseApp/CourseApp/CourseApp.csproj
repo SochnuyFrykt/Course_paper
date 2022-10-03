@@ -53,35 +53,59 @@
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="Docs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docs.Designer.cs">
+      <DependentUpon>Docs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Money.cs">
+    <Compile Include="InformationAboutObjects.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Money.Designer.cs">
-      <DependentUpon>Money.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Help.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Help.Designer.cs">
-      <DependentUpon>Help.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Information.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Information.Designer.cs">
-      <DependentUpon>Information.cs</DependentUpon>
+    <Compile Include="InformationAboutObjects.Designer.cs">
+      <DependentUpon>InformationAboutObjects.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring.Designer.cs">
+      <DependentUpon>Monitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryCalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalaryCalculation.Designer.cs">
+      <DependentUpon>SalaryCalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Template.Designer.cs">
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,20 +124,32 @@
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Docs.resx">
+      <DependentUpon>Docs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Money.resx">
-      <DependentUpon>Money.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Help.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Information.resx">
-      <DependentUpon>Information.cs</DependentUpon>
+    <EmbeddedResource Include="InformationAboutObjects.resx">
+      <DependentUpon>InformationAboutObjects.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring.resx">
+      <DependentUpon>Monitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryCalculation.resx">
+      <DependentUpon>SalaryCalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template.resx">
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

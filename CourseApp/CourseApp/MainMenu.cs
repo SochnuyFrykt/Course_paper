@@ -10,80 +10,51 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class MainMenu : Form
+    public partial class MainMenu : Template
     {
         public MainMenu()
         {
             InitializeComponent();
         }
-		private void CloseButton_Click(object sender, EventArgs e)
-		{
-			Application.Exit();
-		}
-		private void CloseButton_MouseEnter(object sender, EventArgs e)
-		{
-			CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
-		}
 
-		private void CloseButton_MouseLeave(object sender, EventArgs e)
-		{
-			CloseButton.ForeColor = Color.White;
-		}
-
-		private void HideButton_Click(object sender, EventArgs e)
-		{
-			WindowState = FormWindowState.Minimized;
-		}
-
-		private void HideButton_MouseEnter(object sender, EventArgs e)
-		{
-			HideButton.ForeColor = Color.FromArgb(149, 149, 149);
-		}
-
-		private void HideButton_MouseLeave(object sender, EventArgs e)
-		{
-			HideButton.ForeColor = Color.White;
-		}
-
-		Point lastPoint;
-		private void panel2_MouseMove(object sender, MouseEventArgs e)
-		{
-			if (e.Button == MouseButtons.Left)
-			{
-				Left += e.X - lastPoint.X;
-				Top += e.Y - lastPoint.Y;
-			}
-		}
-
-		private void panel2_MouseDown(object sender, MouseEventArgs e)
-		{
-			lastPoint = new Point(e.X, e.Y);
-		}
-		private void ButtonHelp_Click(object sender, EventArgs e)
-		{
-			Help help = new Help();
-			help.Show();
-		}
-
-		private void ButtonBack_Click(object sender, EventArgs e)
-		{
-			var form1 = new SignInForm();
-			form1.Show();
-			Hide();
-		}
-
-		private void SingInButton_Click(object sender, EventArgs e)
+        private void MainMenu_Load(object sender, EventArgs e)
         {
-			var info = new Information();
-			info.Show();
-			Hide();
-		}
+
+        }
+        private void SingInButton_Click(object sender, EventArgs e)
+        {
+            var info = new InformationAboutObjects();
+            info.Show();
+            Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var monitoring = new Monitoring();
+            monitoring.Show();
+            Hide();
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
-			var money = new Money();
-			money.Show();
-			Hide();
-		}
+            var salary = new SalaryCalculation();
+            salary.Show();
+            Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var orders = new Orders();
+            orders.Show();
+            Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var docs = new Docs();
+            docs.Show();
+            Hide();
+
+        }
     }
 }

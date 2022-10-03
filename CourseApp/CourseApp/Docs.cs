@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Information : Form
+    public partial class Docs : Template
     {
-        public Information()
+        public Docs()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Money : Form
+    public partial class SalaryCalculation : Template
     {
-        public Money()
+        public SalaryCalculation()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
