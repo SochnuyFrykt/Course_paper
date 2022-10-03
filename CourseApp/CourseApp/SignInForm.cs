@@ -53,6 +53,19 @@ namespace CourseApp
 			form1.Show();
 			Hide();
 		}
+		private void ButtonHelp_Click(object sender, EventArgs e)
+		{
+			Help help = new Help();
+			help.Show();
+		}
+
+		private void ButtonAuth_Click(object sender, EventArgs e)
+		{
+			var auth = new Auth();
+			auth.Show();
+			Hide();
+		}
+
 
 		Point lastPoint;
 		private void panel2_MouseMove(object sender, MouseEventArgs e)
