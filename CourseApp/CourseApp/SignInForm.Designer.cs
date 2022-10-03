@@ -151,6 +151,7 @@
             this.WorkerPanel.Name = "WorkerPanel";
             this.WorkerPanel.Size = new System.Drawing.Size(185, 199);
             this.WorkerPanel.TabIndex = 4;
+            this.WorkerPanel.Click += new System.EventHandler(this.ButtonAuth_Click);
             // 
             // pictureBox1
             // 
@@ -160,6 +161,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(128, 128);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.ButtonAuth_Click);
             // 
             // Worker
             // 
@@ -172,6 +174,7 @@
             this.Worker.TabIndex = 0;
             this.Worker.Text = "Производитель работ";
             this.Worker.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Worker.Click += new System.EventHandler(this.ButtonAuth_Click);
             // 
             // DirectorPanel
             // 

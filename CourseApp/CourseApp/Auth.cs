@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-	public partial class SignInForm : Form
-	{
-		public SignInForm()
-		{
-			InitializeComponent();
-		}
-
+    public partial class Auth : Form
+    {
+        public Auth()
+        {
+            InitializeComponent();
+        }
 		private void CloseButton_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
@@ -47,26 +46,20 @@ namespace CourseApp
 			HideButton.ForeColor = Color.White;
 		}
 
-		private void ButtonBack_Click(object sender, EventArgs e)
+		Point lastPoint;
+		private void panel2_MouseMove(object sender, MouseEventArgs e)
 		{
-			Form1 form1 = new Form1();
-			form1.Show();
-			Hide();
+			if (e.Button == MouseButtons.Left)
+			{
+				Left += e.X - lastPoint.X;
+				Top += e.Y - lastPoint.Y;
+			}
 		}
 
-		private void ButtonHelp_Click(object sender, EventArgs e)
+		private void panel2_MouseDown(object sender, MouseEventArgs e)
 		{
-			Help help = new Help();
-			help.Show();
+			lastPoint = new Point(e.X, e.Y);
 		}
 
-		private void ButtonAuth_Click(object sender, EventArgs e)
-		{
-			var auth = new Auth();
-			auth.Show();
-			Hide();
-		}
-
-
-	}
+    }
 }
