@@ -18,6 +18,11 @@ namespace CourseApp
             InitializeComponent();
             formtoopen = form;
         }
+        public Orders(MainMenuWorker form)
+        {
+            InitializeComponent();
+            formtoopen = form;
+        }
         public override void ButtonBack_Click(object sender, EventArgs e)
         {
             formtoopen.Show();
@@ -33,6 +38,11 @@ namespace CourseApp
         {
             base.OnShown(e);
             ActiveControl = null;
+        }
+
+        private void SendButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

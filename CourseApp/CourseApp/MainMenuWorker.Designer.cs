@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.OrdersButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // OrdersButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(289, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 60);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Заказ строительных материалов";
-            this.button1.UseVisualStyleBackColor = false;
+            this.OrdersButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.OrdersButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OrdersButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.OrdersButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.OrdersButton.ForeColor = System.Drawing.Color.White;
+            this.OrdersButton.Location = new System.Drawing.Point(289, 105);
+            this.OrdersButton.Name = "OrdersButton";
+            this.OrdersButton.Size = new System.Drawing.Size(130, 60);
+            this.OrdersButton.TabIndex = 13;
+            this.OrdersButton.Text = "Заказ строительных материалов";
+            this.OrdersButton.UseVisualStyleBackColor = false;
+            this.OrdersButton.Click += new System.EventHandler(this.OrdersButton_Click);
             // 
             // label1
             // 
@@ -64,11 +65,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(725, 415);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.OrdersButton);
             this.Name = "MainMenuWorker";
             this.Text = "MainMenuWorker";
             this.Load += new System.EventHandler(this.MainMenuWorker_Load);
-            this.Controls.SetChildIndex(this.button1, 0);
+            this.Controls.SetChildIndex(this.OrdersButton, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -77,7 +78,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button OrdersButton;
         private System.Windows.Forms.Label label1;
     }
 }

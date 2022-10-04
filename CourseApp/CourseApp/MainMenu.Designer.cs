@@ -28,88 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.InfoAboutObjects = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.InfoAboutObjectsButton = new System.Windows.Forms.Button();
+            this.ActivityTrackingButton = new System.Windows.Forms.Button();
+            this.SalaryCalcButton = new System.Windows.Forms.Button();
+            this.OrdersButton = new System.Windows.Forms.Button();
+            this.DocumentGenerationButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // InfoAboutObjects
+            // InfoAboutObjectsButton
             // 
-            this.InfoAboutObjects.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.InfoAboutObjects.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.InfoAboutObjects.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.InfoAboutObjects.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.InfoAboutObjects.ForeColor = System.Drawing.Color.White;
-            this.InfoAboutObjects.Location = new System.Drawing.Point(130, 105);
-            this.InfoAboutObjects.Name = "InfoAboutObjects";
-            this.InfoAboutObjects.Size = new System.Drawing.Size(130, 60);
-            this.InfoAboutObjects.TabIndex = 11;
-            this.InfoAboutObjects.Text = "Информация об объектах";
-            this.InfoAboutObjects.UseVisualStyleBackColor = false;
-            this.InfoAboutObjects.Click += new System.EventHandler(this.InfoAboutObjects_Click);
+            this.InfoAboutObjectsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.InfoAboutObjectsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InfoAboutObjectsButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.InfoAboutObjectsButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.InfoAboutObjectsButton.ForeColor = System.Drawing.Color.White;
+            this.InfoAboutObjectsButton.Location = new System.Drawing.Point(130, 105);
+            this.InfoAboutObjectsButton.Name = "InfoAboutObjectsButton";
+            this.InfoAboutObjectsButton.Size = new System.Drawing.Size(130, 60);
+            this.InfoAboutObjectsButton.TabIndex = 11;
+            this.InfoAboutObjectsButton.Text = "Информация об объектах";
+            this.InfoAboutObjectsButton.UseVisualStyleBackColor = false;
+            this.InfoAboutObjectsButton.Click += new System.EventHandler(this.InfoAboutObjectsButton_Click);
             // 
-            // button1
+            // ActivityTrackingButton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(290, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 60);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Мониторинг деятельности";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ActivityTrackingButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.ActivityTrackingButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ActivityTrackingButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ActivityTrackingButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.ActivityTrackingButton.ForeColor = System.Drawing.Color.White;
+            this.ActivityTrackingButton.Location = new System.Drawing.Point(290, 105);
+            this.ActivityTrackingButton.Name = "ActivityTrackingButton";
+            this.ActivityTrackingButton.Size = new System.Drawing.Size(130, 60);
+            this.ActivityTrackingButton.TabIndex = 12;
+            this.ActivityTrackingButton.Text = "Мониторинг деятельности";
+            this.ActivityTrackingButton.UseVisualStyleBackColor = false;
+            this.ActivityTrackingButton.Click += new System.EventHandler(this.ActivityTrackingButton_Click);
             // 
-            // button2
+            // SalaryCalcButton
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(450, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 60);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Расчет заработной платы";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.SalaryCalcButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.SalaryCalcButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SalaryCalcButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.SalaryCalcButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.SalaryCalcButton.ForeColor = System.Drawing.Color.White;
+            this.SalaryCalcButton.Location = new System.Drawing.Point(450, 105);
+            this.SalaryCalcButton.Name = "SalaryCalcButton";
+            this.SalaryCalcButton.Size = new System.Drawing.Size(130, 60);
+            this.SalaryCalcButton.TabIndex = 13;
+            this.SalaryCalcButton.Text = "Расчет заработной платы";
+            this.SalaryCalcButton.UseVisualStyleBackColor = false;
+            this.SalaryCalcButton.Click += new System.EventHandler(this.SalaryCalcButton_Click);
             // 
-            // button3
+            // OrdersButton
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(130, 190);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 60);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Заказ строительных материалов";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.OrdersButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.OrdersButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OrdersButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.OrdersButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.OrdersButton.ForeColor = System.Drawing.Color.White;
+            this.OrdersButton.Location = new System.Drawing.Point(130, 190);
+            this.OrdersButton.Name = "OrdersButton";
+            this.OrdersButton.Size = new System.Drawing.Size(130, 60);
+            this.OrdersButton.TabIndex = 14;
+            this.OrdersButton.Text = "Заказ строительных материалов";
+            this.OrdersButton.UseVisualStyleBackColor = false;
+            this.OrdersButton.Click += new System.EventHandler(this.OrdersButton_Click);
             // 
-            // button4
+            // DocumentGenerationButton
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(290, 190);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 60);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Формирование документов";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.DocumentGenerationButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.DocumentGenerationButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DocumentGenerationButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.DocumentGenerationButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.DocumentGenerationButton.ForeColor = System.Drawing.Color.White;
+            this.DocumentGenerationButton.Location = new System.Drawing.Point(290, 190);
+            this.DocumentGenerationButton.Name = "DocumentGenerationButton";
+            this.DocumentGenerationButton.Size = new System.Drawing.Size(130, 60);
+            this.DocumentGenerationButton.TabIndex = 15;
+            this.DocumentGenerationButton.Text = "Формирование документов";
+            this.DocumentGenerationButton.UseVisualStyleBackColor = false;
+            this.DocumentGenerationButton.Click += new System.EventHandler(this.DocumentGenerationButton_Click);
             // 
             // label1
             // 
@@ -129,19 +129,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(725, 415);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.InfoAboutObjects);
+            this.Controls.Add(this.DocumentGenerationButton);
+            this.Controls.Add(this.OrdersButton);
+            this.Controls.Add(this.SalaryCalcButton);
+            this.Controls.Add(this.ActivityTrackingButton);
+            this.Controls.Add(this.InfoAboutObjectsButton);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
             this.Load += new System.EventHandler(this.MainMenu_Load);
-            this.Controls.SetChildIndex(this.InfoAboutObjects, 0);
-            this.Controls.SetChildIndex(this.button1, 0);
-            this.Controls.SetChildIndex(this.button2, 0);
-            this.Controls.SetChildIndex(this.button3, 0);
-            this.Controls.SetChildIndex(this.button4, 0);
+            this.Controls.SetChildIndex(this.InfoAboutObjectsButton, 0);
+            this.Controls.SetChildIndex(this.ActivityTrackingButton, 0);
+            this.Controls.SetChildIndex(this.SalaryCalcButton, 0);
+            this.Controls.SetChildIndex(this.OrdersButton, 0);
+            this.Controls.SetChildIndex(this.DocumentGenerationButton, 0);
             this.Controls.SetChildIndex(this.label1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -150,11 +150,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button InfoAboutObjects;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button InfoAboutObjectsButton;
+        private System.Windows.Forms.Button SalaryCalcButton;
+        private System.Windows.Forms.Button OrdersButton;
+        private System.Windows.Forms.Button DocumentGenerationButton;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button ActivityTrackingButton;
     }
 }

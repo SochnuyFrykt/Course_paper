@@ -27,31 +27,31 @@ namespace CourseApp
             docs = new Docs(this);
         }
 
-        private void InfoAboutObjects_Click(object sender, EventArgs e)
+        private void InfoAboutObjectsButton_Click(object sender, EventArgs e)
         {
             info.Show();
             Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ActivityTrackingButton_Click(object sender, EventArgs e)
         {
             monitoring.Show();
             Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void SalaryCalcButton_Click(object sender, EventArgs e)
         {
             salary.Show();
             Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void OrdersButton_Click(object sender, EventArgs e)
         {
             orders.Show();
             Hide();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void DocumentGenerationButton_Click(object sender, EventArgs e)
         {
             docs.Show();
             Hide();
