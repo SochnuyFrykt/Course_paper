@@ -16,7 +16,7 @@ namespace CourseApp
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainMenuWorker());
+			Application.Run(new Form1());
 		}
 	}
 }

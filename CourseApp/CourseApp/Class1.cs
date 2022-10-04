@@ -11,11 +11,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace CourseApp
 {
-  internal class Methods
-  {
-    private void CloseButton_Click(object sender, EventArgs e)
+    public class Methods
     {
-      Application.Exit();
+        public static void SwitchColorButton(Label label)
+        {
+            label.MouseEnter += (s, n) =>
+            label.ForeColor = Color.FromArgb(149, 149, 149);
+            label.MouseLeave += (s, n) =>
+            label.ForeColor = Color.White;
+        }
     }
-  }
 }

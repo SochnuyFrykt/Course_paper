@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CourseApp;
 
 namespace CourseApp
 {
@@ -15,12 +16,13 @@ namespace CourseApp
 		public Form1()
 		{
 			InitializeComponent();
-			SwitchColorCloseButton();
-			SwitchColorHideButton();
+			Methods.SwitchColorButton(CloseButton);
+			Methods.SwitchColorButton(HideButton);
 		}
 
 		public void SwitchColorCloseButton()
 		{
+			var test = CloseButton;
 			CloseButton.MouseEnter += (s, e) =>
 				CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
 			CloseButton.MouseLeave += (s, e) =>
