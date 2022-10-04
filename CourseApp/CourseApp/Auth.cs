@@ -43,7 +43,11 @@ namespace CourseApp
             adapter.Fill(table);
 
             if (table.Rows.Count>0)
-                MessageBox.Show("Yes");
+            {
+                var main = new MainMenu();
+                main.Show();
+                Close();
+            }    
             else
                 MessageBox.Show("Sosi pisю");
             con.Close();
