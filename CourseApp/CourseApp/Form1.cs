@@ -20,23 +20,6 @@ namespace CourseApp
 			Methods.SwitchColorButton(HideButton);
 		}
 
-		public void SwitchColorCloseButton()
-		{
-			var test = CloseButton;
-			CloseButton.MouseEnter += (s, e) =>
-				CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
-			CloseButton.MouseLeave += (s, e) =>
-				CloseButton.ForeColor = Color.White;
-		}
-
-		public void SwitchColorHideButton()
-		{
-			HideButton.MouseEnter += (s, e) =>
-				HideButton.ForeColor = Color.FromArgb(149, 149, 149);
-			HideButton.MouseLeave += (s, e) =>
-				HideButton.ForeColor = Color.White;
-		}
-
 		private void CloseButton_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
@@ -47,17 +30,16 @@ namespace CourseApp
 			WindowState = FormWindowState.Minimized;
 		}
 
-		public SignInForm signInForm;
-		public SingUpForm singUpForm;
-
 		private void SingInButton_Click(object sender, EventArgs e)
 		{
-      signInForm.Show();
+			SignInForm signInForm = new SignInForm();
+			signInForm.Show();
 			Hide();
 		}
 
 		private void SingUpBottom_Click(object sender, EventArgs e)
 		{
+			SingUpForm singUpForm = new SingUpForm();
 			singUpForm.Show();
 			Hide();
 		}
