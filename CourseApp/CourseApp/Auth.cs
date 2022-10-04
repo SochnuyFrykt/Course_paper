@@ -45,7 +45,7 @@ namespace CourseApp
             if (table.Rows.Count>0)
                 MessageBox.Show("Yes");
             else
-                MessageBox.Show("No");
+                MessageBox.Show("Sosi pisю");
             con.Close();
         }
     }
