@@ -49,7 +49,7 @@ namespace CourseApp
                 Close();
             }    
             else
-                MessageBox.Show("Sosi pisю");
+                MessageBox.Show("Логин или пароль введены неверно!!!!!");
             con.Close();
         }
     }
