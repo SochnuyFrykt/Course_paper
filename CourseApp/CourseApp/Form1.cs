@@ -47,17 +47,16 @@ namespace CourseApp
 			WindowState = FormWindowState.Minimized;
 		}
 
-		public SignInForm signInForm;
-		public SingUpForm singUpForm;
-
 		private void SingInButton_Click(object sender, EventArgs e)
 		{
-      signInForm.Show();
+			SignInForm signInForm = new SignInForm();
+			signInForm.Show();
 			Hide();
 		}
 
 		private void SingUpBottom_Click(object sender, EventArgs e)
 		{
+			SingUpForm singUpForm = new SingUpForm();
 			singUpForm.Show();
 			Hide();
 		}

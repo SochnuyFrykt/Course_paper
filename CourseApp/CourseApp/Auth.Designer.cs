@@ -30,6 +30,8 @@
         {
             this.SingInButton = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // SingInButton
@@ -45,6 +47,7 @@
             this.SingInButton.TabIndex = 8;
             this.SingInButton.Text = "Войти";
             this.SingInButton.UseVisualStyleBackColor = false;
+            this.SingInButton.Click += new System.EventHandler(this.SingInButton_Click);
             // 
             // label3
             // 
@@ -58,16 +61,34 @@
             this.label3.Text = "Авторизация";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(118, 84);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(240, 20);
+            this.textBox4.TabIndex = 14;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(118, 123);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(240, 20);
+            this.textBox1.TabIndex = 15;
+            // 
             // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(370, 223);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.SingInButton);
             this.Name = "Auth";
             this.Controls.SetChildIndex(this.SingInButton, 0);
             this.Controls.SetChildIndex(this.label3, 0);
+            this.Controls.SetChildIndex(this.textBox4, 0);
+            this.Controls.SetChildIndex(this.textBox1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,5 +98,7 @@
 
         private System.Windows.Forms.Button SingInButton;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
