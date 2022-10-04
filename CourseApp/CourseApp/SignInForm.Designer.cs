@@ -41,7 +41,6 @@
             this.DirectorPanel = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButtonBack)).BeginInit();
@@ -213,26 +212,12 @@
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.ButtonAuth_Click);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(422, 323);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "mainmenu_button_test";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.ButtonMainMenu_Click);
-            // 
             // SignInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(29)))), ((int)(((byte)(58)))));
             this.ClientSize = new System.Drawing.Size(725, 415);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.DirectorPanel);
             this.Controls.Add(this.WorkerPanel);
             this.Controls.Add(this.label1);
@@ -273,6 +258,5 @@
 		private System.Windows.Forms.PictureBox ButtonBack;
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
     }
 }
