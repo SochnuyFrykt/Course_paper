@@ -89,8 +89,6 @@
             this.HideButton.Text = "_";
             this.HideButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.HideButton.Click += new System.EventHandler(this.HideButton_Click);
-            this.HideButton.MouseEnter += new System.EventHandler(this.HideButton_MouseEnter);
-            this.HideButton.MouseLeave += new System.EventHandler(this.HideButton_MouseLeave);
             // 
             // CloseButton
             // 
@@ -105,8 +103,6 @@
             this.CloseButton.Text = "X";
             this.CloseButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
-            this.CloseButton.MouseEnter += new System.EventHandler(this.CloseButton_MouseEnter);
-            this.CloseButton.MouseLeave += new System.EventHandler(this.CloseButton_MouseLeave);
             // 
             // label1
             // 

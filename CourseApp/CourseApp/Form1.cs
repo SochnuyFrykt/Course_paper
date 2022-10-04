@@ -15,6 +15,24 @@ namespace CourseApp
 		public Form1()
 		{
 			InitializeComponent();
+			SwitchColorCloseButton();
+			SwitchColorHideButton();
+		}
+
+		public void SwitchColorCloseButton()
+		{
+			CloseButton.MouseEnter += (s, e) =>
+				CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
+			CloseButton.MouseLeave += (s, e) =>
+				CloseButton.ForeColor = Color.White;
+		}
+
+		public void SwitchColorHideButton()
+		{
+			HideButton.MouseEnter += (s, e) =>
+				HideButton.ForeColor = Color.FromArgb(149, 149, 149);
+			HideButton.MouseLeave += (s, e) =>
+				HideButton.ForeColor = Color.White;
 		}
 
 		private void CloseButton_Click(object sender, EventArgs e)
@@ -22,43 +40,22 @@ namespace CourseApp
 			Application.Exit();
 		}
 
-		private void CloseButton_MouseEnter(object sender, EventArgs e)
-		{
-			CloseButton.ForeColor = Color.FromArgb(149, 149, 149);
-		}
-
-		private void CloseButton_MouseLeave(object sender, EventArgs e)
-		{
-			CloseButton.ForeColor = Color.White;
-		}
-
 		private void HideButton_Click(object sender, EventArgs e)
 		{
 			WindowState = FormWindowState.Minimized;
 		}
 
-		private void HideButton_MouseEnter(object sender, EventArgs e)
-		{
-			HideButton.ForeColor = Color.FromArgb(149, 149, 149);
-		}
-
-		private void HideButton_MouseLeave(object sender, EventArgs e)
-		{
-			HideButton.ForeColor = Color.White;
-		}
 		public SignInForm signInForm;
 		public SingUpForm singUpForm;
 
 		private void SingInButton_Click(object sender, EventArgs e)
 		{
-			signInForm = new SignInForm();
-            signInForm.Show();
+      signInForm.Show();
 			Hide();
 		}
 
 		private void SingUpBottom_Click(object sender, EventArgs e)
 		{
-			singUpForm = new SingUpForm();
 			singUpForm.Show();
 			Hide();
 		}
@@ -78,11 +75,10 @@ namespace CourseApp
 			lastPoint = new Point(e.X, e.Y);
 		}
 
+		public Help help = new Help();
 		private void ButtonHelp_Click(object sender, EventArgs e)
 		{
-			Help help = new Help();
 			help.Show();
-			
 		}
 	}
 }
