@@ -10,28 +10,28 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class InformationAboutObjects : Template
+  public partial class InformationAboutObjects : Template
+  {
+    Form formtoopen;
+    public InformationAboutObjects(MainMenu form)
     {
-        Form formtoopen;
-        public InformationAboutObjects(MainMenu form)
-        {
-            InitializeComponent();
-            formtoopen = form;
-        }
-        public override void ButtonBack_Click(object sender, EventArgs e)
-        {
-            formtoopen.Show();
-            Hide();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+      InitializeComponent();
+      formtoopen = form;
     }
+    public override void ButtonBack_Click(object sender, EventArgs e)
+    {
+      formtoopen.Show();
+      Hide();
+    }
+
+    private void label1_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+    {
+
+    }
+  }
 }

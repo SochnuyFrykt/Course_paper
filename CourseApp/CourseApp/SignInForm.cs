@@ -76,19 +76,18 @@ namespace CourseApp
 			auth.Show();
 			Close();
 		}
+
 		private void ButtonHelp_Click(object sender, EventArgs e)
 		{
 			Help help = new Help();
 			help.Show();
 		}
+
 		private void ButtonBack_Click(object sender, EventArgs e)
 		{
 			Form1 form1 = new Form1();
 			form1.Show();
 			Close();
 		}
-
-
-
 	}
 }

@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Docs : Template
+  public partial class Docs : Template
+  {
+    Form formtoopen;
+    public Docs(MainMenu form)
     {
-        Form formtoopen;
-        public Docs(MainMenu form)
-        {
-            InitializeComponent();
-            formtoopen = form;
-        }
-        public override void ButtonBack_Click(object sender, EventArgs e)
-        {
-            formtoopen.Show();
-            Hide();
-        }
+      InitializeComponent();
+      formtoopen = form;
     }
+    public override void ButtonBack_Click(object sender, EventArgs e)
+    {
+      formtoopen.Show();
+      Hide();
+    }
+  }
 }

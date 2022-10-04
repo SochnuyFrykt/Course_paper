@@ -10,12 +10,13 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class AuthAndRegTemplate : Form
+  public partial class AuthAndRegTemplate : Form
+  {
+    public AuthAndRegTemplate()
     {
-        public AuthAndRegTemplate()
-        {
-            InitializeComponent();
-        }
+      InitializeComponent();
+    }
+
 		private void CloseButton_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
@@ -66,6 +67,5 @@ namespace CourseApp
 			form1.Show();
 			Hide();
 		}
-
 	}
 }

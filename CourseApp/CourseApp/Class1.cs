@@ -11,11 +11,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace CourseApp
 {
-    internal class Methods
+  internal class Methods
+  {
+    private void CloseButton_Click(object sender, EventArgs e)
     {
-        private void CloseButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+      Application.Exit();
     }
+  }
 }

@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Registration : AuthAndRegTemplate
+  public partial class Registration : AuthAndRegTemplate
+  {
+    public Registration()
     {
-        public Registration()
-        {
-            InitializeComponent();
-        }
-
-        private void Registration_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        public override void ButtonBack_Click(object sender, EventArgs e)
-        {
-            var reg = new SingUpForm();
-            reg.Show();
-            Close();
-        }
+      InitializeComponent();
     }
+
+    private void Registration_Load(object sender, EventArgs e)
+    {
+
+    }
+
+    public override void ButtonBack_Click(object sender, EventArgs e)
+    {
+      var reg = new SingUpForm();
+      reg.Show();
+      Close();
+    }
+  }
 }
