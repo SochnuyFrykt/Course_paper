@@ -10,18 +10,18 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class Monitoring : Template
+  public partial class Monitoring : Template
+  {
+    Form formtoopen;
+    public Monitoring(MainMenu form)
     {
-        Form formtoopen;
-        public Monitoring(MainMenu form)
-        {
-            InitializeComponent();
-            formtoopen = form;
-        }
-        public override void ButtonBack_Click(object sender, EventArgs e)
-        {
-            formtoopen.Show();
-            Hide();
-        }
+      InitializeComponent();
+      formtoopen = form;
     }
+    public override void ButtonBack_Click(object sender, EventArgs e)
+    {
+      formtoopen.Show();
+      Hide();
+    }
+  }
 }

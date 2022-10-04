@@ -11,24 +11,24 @@ using System.Windows.Forms;
 
 namespace CourseApp
 {
-    public partial class SalaryCalculation : Template
+  public partial class SalaryCalculation : Template
+  {
+    Form formtoopen;
+    public SalaryCalculation(MainMenu form)
     {
-        Form formtoopen;
-        public SalaryCalculation(MainMenu form)
-        {
-            InitializeComponent();
-            formtoopen = form;
-        }
-        public override void ButtonBack_Click(object sender, EventArgs e)
-        {
-            formtoopen.Show();
-            Hide();
-        }
-
-        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
-        {
-            object st = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
-            File.WriteAllText(@"D:\c#\CourseApp\test.txt", st.ToString()); //Тестирую вывод введенной информации в файл
-        }
+      InitializeComponent();
+      formtoopen = form;
     }
+    public override void ButtonBack_Click(object sender, EventArgs e)
+    {
+      formtoopen.Show();
+      Hide();
+    }
+
+    private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+    {
+      object st = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
+      File.WriteAllText(@"D:\c#\CourseApp\test.txt", st.ToString()); //Тестирую вывод введенной информации в файл
+    }
+  }
 }
