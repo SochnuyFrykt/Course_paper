@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SingInButton = new System.Windows.Forms.Button();
+            this.InfoAboutObjects = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -36,20 +36,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // SingInButton
+            // InfoAboutObjects
             // 
-            this.SingInButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
-            this.SingInButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SingInButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.SingInButton.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.SingInButton.ForeColor = System.Drawing.Color.White;
-            this.SingInButton.Location = new System.Drawing.Point(130, 105);
-            this.SingInButton.Name = "SingInButton";
-            this.SingInButton.Size = new System.Drawing.Size(130, 60);
-            this.SingInButton.TabIndex = 11;
-            this.SingInButton.Text = "Информация об объектах";
-            this.SingInButton.UseVisualStyleBackColor = false;
-            this.SingInButton.Click += new System.EventHandler(this.SingInButton_Click);
+            this.InfoAboutObjects.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(119)))), ((int)(((byte)(0)))));
+            this.InfoAboutObjects.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InfoAboutObjects.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.InfoAboutObjects.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
+            this.InfoAboutObjects.ForeColor = System.Drawing.Color.White;
+            this.InfoAboutObjects.Location = new System.Drawing.Point(130, 105);
+            this.InfoAboutObjects.Name = "InfoAboutObjects";
+            this.InfoAboutObjects.Size = new System.Drawing.Size(130, 60);
+            this.InfoAboutObjects.TabIndex = 11;
+            this.InfoAboutObjects.Text = "Информация об объектах";
+            this.InfoAboutObjects.UseVisualStyleBackColor = false;
+            this.InfoAboutObjects.Click += new System.EventHandler(this.InfoAboutObjects_Click);
             // 
             // button1
             // 
@@ -133,10 +133,11 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.SingInButton);
+            this.Controls.Add(this.InfoAboutObjects);
             this.Name = "MainMenu";
             this.Text = "MainMenu";
-            this.Controls.SetChildIndex(this.SingInButton, 0);
+            this.Load += new System.EventHandler(this.MainMenu_Load);
+            this.Controls.SetChildIndex(this.InfoAboutObjects, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.button3, 0);
@@ -149,7 +150,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SingInButton;
+        private System.Windows.Forms.Button InfoAboutObjects;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

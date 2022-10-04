@@ -27,7 +27,7 @@ namespace CourseApp
             docs = new Docs(this);
         }
 
-        private void SingInButton_Click(object sender, EventArgs e)
+        private void InfoAboutObjects_Click(object sender, EventArgs e)
         {
             info.Show();
             Hide();
@@ -55,6 +55,11 @@ namespace CourseApp
         {
             docs.Show();
             Hide();
+
+        }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
 
         }
     }
